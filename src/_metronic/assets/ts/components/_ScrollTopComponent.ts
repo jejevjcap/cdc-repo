@@ -38,6 +38,7 @@ class ScrollTopComponent {
 
   private _handlers = () => {
     let timer: number
+    timer = 0
     window.addEventListener('scroll', () => {
       throttle(timer, () => {
         this._scroll()
@@ -145,4 +146,4 @@ class ScrollTopComponent {
     ElementAnimateUtil.scrollTop(0, defaultScrollTopOptions.speed)
   }
 }
-export {ScrollTopComponent, defaultScrollTopOptions}
+export { ScrollTopComponent, defaultScrollTopOptions }
