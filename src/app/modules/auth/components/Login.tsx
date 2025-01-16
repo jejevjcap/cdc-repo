@@ -65,19 +65,9 @@ export function Login() {
       {/* begin::Heading */}
       <div className='text-center mb-11'>
         <h1 className='text-gray-900 fw-bolder mb-3'>Sign In</h1>
-        <div className='text-gray-500 fw-semibold fs-6'>Your Social Campaigns</div>
+        <div className='text-gray-500 fw-semibold fs-6'>CDC - Cipta Artha Paramarta</div>
       </div>
       {/* begin::Heading */}
-
-      {/* begin::Login options */}
-
-      {/* end::Login options */}
-
-      {/* begin::Separator */}
-      <div className='separator separator-content my-14'>
-        <span className='w-125px text-gray-500 fw-semibold fs-7'>Or with email</span>
-      </div>
-      {/* end::Separator */}
 
       {formik.status ? (
         <div className='mb-lg-15 alert alert-danger'>
