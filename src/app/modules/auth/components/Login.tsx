@@ -21,7 +21,7 @@ const loginSchema = Yup.object().shape({
 })
 
 const initialValues = {
-  email: 'admin@demo.com',
+  email: 'demo@cap.com',
   password: 'demo',
 }
 
@@ -76,7 +76,7 @@ export function Login() {
       ) : (
         <div className='mb-10 bg-light-info p-8 rounded'>
           <div className='text-info'>
-            Gunakan akun <strong>admin@demo.com</strong> and password <strong>demo</strong> to
+            Gunakan akun <strong>demo@cap.com</strong> and password <strong>demo</strong> to
             continue.
           </div>
         </div>
