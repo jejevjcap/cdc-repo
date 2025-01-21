@@ -64,8 +64,8 @@ export function Login() {
     >
       {/* begin::Heading */}
       <div className='text-center mb-11'>
-        <h1 className='text-gray-900 fw-bolder mb-3'>Sign In</h1>
-        <div className='text-gray-500 fw-semibold fs-6'>CDC - Cipta Artha Paramarta</div>
+        <h1 className='text-gray-900 fw-bolder mb-3'>Login</h1>
+        <div className='text-gray-500 fw-semibold fs-6'>CDC - Databases Management System</div>
       </div>
       {/* begin::Heading */}
 
